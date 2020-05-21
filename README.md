@@ -120,7 +120,7 @@ $ php artisan migrate
 
 ```
 $ yum install httpd-tools
-$ htpasswd -c /etc/nginx/.htpasswd ishikawaTake
+$ htpasswd -c /etc/nginx/.htpasswd username
 $ vi /etc/nginx/conf.d/server.conf
 $ service nginx restart
 ```
